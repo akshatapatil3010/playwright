@@ -27,3 +27,8 @@ test("sixth test", async function({page})
     expect("akshata patil".includes("patil")).toBeTruthy()
 
 })
+test("sixth seventh", async function({page})
+{
+    expect("akshata patil".includes("akshata")).toBeTruthy()
+
+})
